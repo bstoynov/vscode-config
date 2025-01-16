@@ -1,0 +1,8 @@
+# Core
+asvetliakov.vscode-neovim
+oderwat.indent-rainbow
+
+# Themes
+huytd.nord-light
+miguelsolorio.min-theme
+pkief.material-icon-theme
