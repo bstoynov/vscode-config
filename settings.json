@@ -1,0 +1,37 @@
+{
+    // general
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": 700,
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Solarized Light",
+    "editor.renderWhitespace": "all",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    // hide parts of UI
+    "editor.guides.indentation": false,
+    "editor.showFoldingControls": "never",
+    "editor.glyphMargin": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "workbench.activityBar.location": "hidden",
+    // icons
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.renderIndentGuides": "none",
+    // Additional stuff
+    "workbench.editor.showTabs": "none",
+    "workbench.statusBar.visible": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "window.commandCenter": false,
+    "window.titleBarStyle": "custom",
+    // Experimental
+    "breadcrumbs.enabled": false, // TODO: Find good breadcrumbs replacement
+    "editor.stickyScroll.enabled": false,
+    // hide M, U symbols for git
+    "git.decorations.enabled": false,
+}
