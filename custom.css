@@ -1,0 +1,22 @@
+.window-title {
+    font-family: "JetBrains Mono";
+    color: red;
+    font-weight: 700;
+    font-size: 14px !important;
+}
+
+.quick-input-widget {
+    position: absolute !important;
+    top: 25% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin-left: 0 !important;
+}
+
+.quick-input-list-separator, .quick-input-list-entry-action-bar {
+    display: none !important;
+}
+
+#workbench.parts.titlebar {
+    background: red !important;
+}
