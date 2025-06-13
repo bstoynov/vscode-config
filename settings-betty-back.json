@@ -1,22 +1,42 @@
 {
-  "background.windowBackgrounds": ["/Users/bstoynov/Downloads/906873.jpg"],
-  "editor.fontSize": 15,
-  "editor.fontFamily": "'JetBrains Mono'",
-  "editor.fontWeight": "700",
-  "background.backgroundAlignment": [
-    "Center Center",
-    "Center Center",
-    "Center Center",
-    "Center Center"
-  ],
-  "background.backgroundBlur": ["10px", "0", "0", "0"],
-  "background.backgroundOpacity": [0.7, 0.5, 0.9, 0.9],
-  "editor.renderWhitespace": "all",
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.background": "#E4E2D2"
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": 700,
+  "editor.fontSize": 16,
+  "editor.renderWhitespace": "boundary",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "editor.guides.indentation": false,
+  "editor.showFoldingControls": "never",
+  "editor.glyphMargin": false,
+  "editor.minimap.enabled": false,
+  // I use this to look for file errors on the right
+  // "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
   "editor.stickyScroll.enabled": false,
-  "background.autoInstall": false,
-  // "[javascriptreact]": {
-  //   "editor.defaultFormatter": "vscode.typescript-language-features"
-  // },
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "explorer.compactFolders": false,
+  "editor.lightbulb.enabled": "off",
+  // remove recently open at the top from file search
+  "search.quickOpen.includeHistory": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // <Formatting>
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
@@ -27,45 +47,37 @@
     "typescript",
     "typescriptreact"
   ],
-  "editor.minimap.enabled": false,
-  "editor.tabSize": 2,
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "vscode.typescript-language-features"
-  // },
-  "mjml.mailSender": "bstoynov@bettygaming.com",
-  "mjml.mailjetAPISecret": "3357cc5ebd0373b8b665f23a8bf2479f",
+  // "prettier.useEditorConfig": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // </ Formatting>
+  "todohighlight.keywords": [
+    "BOGI",
+    "BLOCK"
+  ],
+  "todohighlight.defaultStyle": {
+    "backgroundColor": "#f00",
+    "color": "#fff"
+  },
   "mjml.mailjetAPIKey": "7884d8d341c1277e052629c2234b3701",
-  "[mjml]": {
-    "editor.defaultFormatter": "attilabuti.vscode-mjml"
+  "mjml.mailjetAPISecret": "2a85245ba1d10bac1908013fc3333ae6",
+  "mjml.mailSender": "bstoynov@bettygaming.com",
+  // "chat.commandCenter.enabled": false,
+  // Hide .obsidian folder
+  "files.exclude": {
+    ".obsidian": true
   },
-  // "[css]": {
-  //   "editor.defaultFormatter": "vscode.css-language-features"
-  // },
-  // "[typescriptreact]": {
-  //   "editor.defaultFormatter": "vscode.typescript-language-features"
-  // },
-  "editor.accessibilitySupport": "off",
-  "editor.glyphMargin": false,
-  "editor.showFoldingControls": "never",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "background.useInvertedOpacity": true,
-  "githubPullRequests.pullBranch": "never",
-  // "[typescript]": {
-  //   "editor.defaultFormatter": "vscode.typescript-language-features"
-  // },
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "GitHub Light",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+  "search.exclude": {
+    ".obsidian": true
   },
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
+  "[html]": {
+    // "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.compactFolders": false,
-  "background.editorBackgrounds": ["/Users/bstoynov/Downloads/aziskata.jpg"],
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
   "gitlens.views.scm.grouped.views": {
     "commits": true,
     "branches": true,
@@ -74,7 +86,8 @@
     "tags": true,
     "worktrees": true,
     "contributors": true,
-    "repositories": false,
+    "fileHistory": false,
+    "repositories": true,
     "searchAndCompare": true,
     "launchpad": false
   },
@@ -82,20 +95,32 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "editor.inlineSuggest.suppressSuggestions": true,
-  "editor.cursorBlinking": "solid",
-  "remote.extensionKind": {
-    "asvetliakov.vscode-neovim": ["workspace"]
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "files.hotExit": "onExitAndWindowClose",
-  "workbench.colorCustomizations": {
-    "sideBar.background": "#fff"
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.printWidth": 80,
+    "prettier.proseWrap": "always",
+    // "editor.rulers": [
+    //   80
+    // ]
   },
-  "workbench.activityBar.location": "hidden"
+  "workbench.colorTheme": "Sedona Sunset",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "markup.bold.markdown",
+        "settings": {
+          "foreground": "#643ab1",
+        }
+      }
+    ]
+  }
 }
-
